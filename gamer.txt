@@ -1,0 +1,8 @@
+site-gamer-frontend/
+│
+├── index.html       (Página inicial / Home)
+├── login.html       (Página de acesso)
+├── css/
+│   └── style.css    (Estilização personalizada e temas gamer)
+└── js/
+    └── main.js      (Interatividade, carrossel e validação de login com jQuery/JS)
