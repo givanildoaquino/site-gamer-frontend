@@ -1,0 +1,25 @@
+css/style.css
+:root {
+    --cor-neon: #a855f7;
+    --cor-purple-dark: #6b21a8;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-neon { color: var(--cor-neon) !important; }
+.border-purple { border-color: var(--cor-neon) !important; }
+.btn-purple { background-color: var(--cor-neon); color: #fff; border: none; }
+.btn-purple:hover { background-color: var(--cor-purple-dark); color: #fff; }
+.btn-outline-purple { color: var(--cor-neon); border-color: var(--cor-neon); }
+.btn-outline-purple:hover { background-color: var(--cor-neon); color: #fff; }
+.bg-banner-1 {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=1200') no-repeat center center;
+    background-size: cover;
+    min-height: 450px;
+}
+.form-control:focus {
+    background-color: #121212 !important;
+    color: #fff !important;
+    border-color: var(--cor-neon) !important;
+    box-shadow: 0 0 5px var(--cor-neon) !important;
+}
